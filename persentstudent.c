@@ -9,8 +9,10 @@ int main() {
     for(int i = 0; i < 5; i++) {
         printf("Student %d: ", i + 1);
         scanf("%d", &marks[i]);
-        sum += marks[i];
+        sum += marks[i];            
     }
+    // This program calculates the average percentage of marks obtained by 5 students
+    // It prompts the user to enter the marks for each student
 
     percentage = (sum / 5.0);
 
